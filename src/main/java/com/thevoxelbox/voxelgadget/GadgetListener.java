@@ -450,7 +450,6 @@ public class GadgetListener implements Listener {
                                         }
                                     } else {
                                         for (int i = 0; i < offset; i++) {
-                                            log.warning("hidad");
                                             w.getBlockAt(targetBlock.getX() - i, targetBlock.getY(), targetBlock.getZ()).setTypeIdAndData(currentStack.getTypeId(), (byte) currentStack.getDurability(), true);
                                         }
                                     }
