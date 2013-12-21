@@ -1,8 +1,9 @@
-name: VoxelGadget
-main: com.thevoxelbox.bukkit.VoxelGadget
-version: maven-version-number
-website: http://thevoxelbox.com
-author: Gavjenks
-description: >
-             Create, destroy or shuffle around single blocks of any type with dispensers.  Goes beyond pistons, but is still just a simple machine for maximum flexibility and creativity.
+name: ${project.artifactId}
+main: com.thevoxelbox.voxelgadget.VoxelGadget
+version: ${project.build.version}
+website: ${project.url}
+authors: [CalDaBeast]
+description: ${project.description}
 commands:
+  gadget:
+    description: The main command for use with VoxelGadget2.
