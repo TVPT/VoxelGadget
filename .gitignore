@@ -32,8 +32,11 @@ target/
 *.ipr
 *.iws
 .idea/
+out/
 
 .checkstyle
 
 # Testfiles
 test.sh
+/bin/
+/build/
